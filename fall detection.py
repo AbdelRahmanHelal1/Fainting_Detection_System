@@ -15,7 +15,7 @@ image_path = "fall_detection.jpg"
 model = YOLO("yolov8n-pose.pt")
 
 # Open the video file
-cap = cv2.VideoCapture("VID_20240416_115636.mp4")
+cap = cv2.VideoCapture(r"D:\my project\Fall Detection System\VID_20240416_115636.mp4")
 
 # Dictionary to keep track of the time each detected object has been in a certain state
 times = {}
